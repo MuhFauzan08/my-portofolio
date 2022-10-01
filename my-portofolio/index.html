@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portofolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body class="position-relative">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portofolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Home -->
+  <section id="home">
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-lg-6 col-12 my-lg-auto order-1 text-center text-lg-start">
+          <span>Hello I'm</span>
+          <h1>WEB DESIGNER</h1>
+          <h3>Muhammad Fauzan</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores tempore totam consectetur veniam, aut
+            dolore.</p>
+          <button class="mt-2">
+            <a href="#projects">My Work</a>
+          </button>
+        </div>
+
+        <div class="col-lg-6 col-12 my-lg-auto mb-4 mb-lg-0 d-lg-block d-flex justify-content-center">
+          <img src="img/profile.jpg" alt="Profile">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home end -->
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12">
+          <h2 class="text-center">About Me</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-12 text-center text-md-start">
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, accusantium quisquam numquam earum
+            magni expedita aspernatur, quas, ut beatae molestiae sed dignissimos quos similique suscipit?</p>
+
+          <!-- Review -->
+          <div class="review">
+            <div class="row">
+              <div class="col-4 text-center">
+                <h4>100</h4>
+                <span>PROJECTS COMPLETED</span>
+              </div>
+              <div class="col-4 text-center">
+                <h4>90</h4>
+                <span>HAPPY CLIENTS</span>
+              </div>
+              <div class="col-4 text-center">
+                <h4>95</h4>
+                <span>POSITIVE REVIEWS</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-12">
+              <button>Download CV</button>
+              <i class="bi bi-facebook me-1"></i>
+              <i class="bi bi-twitter me-1"></i>
+              <i class="bi bi-instagram me-1"></i>
+              <i class="bi bi-linkedin me-1"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Progress bar -->
+        <div class="col-md-6 col-12 text-center text-md-start">
+          <h5>Html</h5>
+          <div class="progress mb-2" style="height: 5px;">
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="10"
+              aria-valuemax="100" style="width: 10%;"></div>
+          </div>
+          <h5>Css</h5>
+          <div class="progress mb-2" style="height: 5px;">
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%"
+              aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5>Javascript</h5>
+          <div class="progress mb-2" style="height: 5px;">
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%"
+              aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5>Bootstrap</h5>
+          <div class="progress mb-2" style="height: 5px;">
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%"
+              aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About End -->
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-lg-5 mb-3">
+          <h2>What I Do</h2>
+        </div>
+
+        <div class="d-flex justify-content-md-center">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 col-12">
+              <div class="card pt-lg-4" style="width: 18rem;">
+                <div class="card-body text-center p-0">
+                  <i class="bi bi-code"></i>
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4 col-12">
+              <div class="card pt-lg-4" style="width: 18rem;">
+                <div class="card-body text-center p-0">
+                  <i class="bi bi-lightbulb"></i>
+                  <h5 class="card-title">Creative Design</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis!</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 col-12">
+              <div class="card pt-lg-4" style="width: 18rem;">
+                <div class="card-body text-center p-0">
+                  <i class="bi bi-image-fill"></i>
+                  <h5 class="card-title">Photoshop</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services end -->
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <div class="row mb-lg-5 mb-3">
+        <div class="col-12 text-center">
+          <h2>Latest Works</h2>
+        </div>
+      </div>
+
+      <div class="row mb-md-4">
+        <!-- Card 1 -->
+        <div class="col-md-4 col-10 mx-auto mb-md-0 mb-3">
+          <img src="img/portfolio/1.jpg" class="img-thumbnail" alt="cust-picture">
+          <h4>Team Section</h4>
+          <a href="" class="text-secondary text-decoration-none">Live Demo</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4 col-10 mx-auto mb-md-0 mb-3">
+          <img src="img/portfolio/2.jpg" class="img-thumbnail" alt="cust-picture">
+          <h4>App Landing Page</h4>
+          <a href="" class="text-secondary text-decoration-none">Live Demo</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 col-10 mx-auto mb-md-0 mb-3">
+          <img src="img/portfolio/3.jpg" class="img-thumbnail" alt="cust-picture">
+          <h4>Creative Team Section</h4>
+          <a href="" class="text-secondary text-decoration-none">Live Demo</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Card 4 -->
+        <div class="col-md-4 col-10 mx-auto mb-md-0 mb-3">
+          <img src="img/portfolio/4.jpg" class="img-thumbnail" alt="...">
+          <h4>Toogle Pricing Table</h4>
+          <a href="" class="text-secondary text-decoration-none">Live Demo</a>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-4 col-10 mx-auto mb-md-0 mb-3">
+          <img src="img/portfolio/5.jpg" class="img-thumbnail" alt="...">
+          <h4>Bootstrap 5 Image Gallery</h4>
+          <a href="" class="text-secondary text-decoration-none">Live Demo</a>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-md-4 col-10 mx-auto mb-md-0">
+          <img src="img/portfolio/6.jpg" class="img-thumbnail" alt="...">
+          <h4>Filterable Image Gallery</h4>
+          <a href="" class="text-secondary text-decoration-none">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects end -->
+
+  <!-- Jumbotron -->
+  <section id="jumbotron">
+    <div class="container-fluid d-flex align-items-center">
+      <div class="container text-center">
+        <p>Do you have any project?</p>
+        <h2>I'm Available For Freelancer Projects</h2>
+        <button type="button" class="btn btn-outline-secondary mt-3">Hire Me</button>
+      </div>
+    </div>
+  </section>
+  <!-- Jumbotron end -->
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <div class="container">
+      <!-- Tittle -->
+      <div class="row">
+        <div class="col-12 text-center mb-md-3">
+          <h2>Testimonials</h2>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="active indicators" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2" class="indicators"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3" class="indicators"></button>
+            </div>
+
+            <!-- Card 1 -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card mx-auto">
+                  <div class="card-body">
+                    <div class="cust-profile clearfix d-flex align-items-center mb-md-4 mb-2">
+                      <img src="img/testimonial/1.jpg" alt="Pict" class="float-start me-2 img-thumbnail">
+                      <div class="cust-bio">
+                        <h6>Shakhruk Khan</h6>
+                        <span>Ceo Bussines</span>
+                      </div>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, qui eligendi enim aliquam
+                      delectus
+                      libero!</p>
+
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="carousel-item">
+                <div class="card mx-auto">
+                  <div class="card-body">
+                    <div class="cust-profile clearfix d-flex align-items-center mb-md-4 mb-2">
+                      <img src="img/testimonial/2.jpg" alt="Pict" class="float-start me-2 img-thumbnail">
+                      <div class="cust-bio">
+                        <h6>Raj Himachal</h6>
+                        <span>Seo Manager</span>
+                      </div>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius dignissimos, laborum facilis culpa
+                      vitae repellat.</p>
+
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="carousel-item">
+                <div class="card mx-auto">
+                  <div class="card-body">
+                    <div class="cust-profile clearfix d-flex align-items-center mb-md-4 mb-2">
+                      <img src="img/testimonial/3.jpg" alt="Pict" class="float-start me-2 img-thumbnail">
+                      <div class="cust-bio">
+                        <h6>Kajaj Mahal</h6>
+                        <span>Bussines Manager</span>
+                      </div>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo optio reiciendis voluptatem
+                      cupiditate corrupti blanditiis.</p>
+
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!-- Testimonials end -->
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-12 mb-3 mb-md-0">
+          <div class="example">
+            <div class="clearfix d-flex align-items-center justify-content-center justify-content-md-start">
+              <i class="bi bi-envelope-fill float-start"></i>
+              <h5 class="ms-2 mb-0">Email</h5>
+            </div>
+            <span>fauzan8@gmail.com</span>
+          </div>
+
+          <div class="example">
+            <div class="clearfix d-flex align-items-center justify-content-center justify-content-md-start">
+              <i class="bi bi-telephone-fill"></i>
+              <h5 class="ms-2 mb-0">Phone</h5>
+            </div>
+            <span>0895 1533 ****</span>
+          </div>
+
+          <div class="example">
+            <div class="clearfix d-flex align-items-center justify-content-center justify-content-md-start">
+              <i class="bi bi-geo-alt-fill"></i>
+              <h5 class="ms-2 mb-0">Visit Office</h5>
+            </div>
+            <span>Jl. Pahlawan No.57 - 00123</span>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-12">
+          <div class="row">
+            <!-- Nama -->
+            <div class="col-6">
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-6">
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+              </div>
+            </div>
+          </div>
+
+          <!-- Subject -->
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+              </div>
+            </div>
+          </div>
+
+          <!-- Message -->
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+                <div class="mb-3">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Your Message"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Button -->
+          <div class="row">
+            <div class="col-5 col-md-6 mx-auto mx-md-0">
+              <button type="button" class="btn btn-secondary">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact end -->
+
+  <!-- Footer -->
+  <footer class="position-absolute bottom-0 start-0 end-0">
+    <p class="text-center">&copy; 2022 Muhammad Fauzan, All Right Reserved.</p>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+  <!-- My JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>

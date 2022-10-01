@@ -1,0 +1,319 @@
+/* Tablet */
+@media (max-width: 922px) {
+
+  /* Home */
+  #home span {
+    font-size: 18px;
+  }
+
+  #home h1 {
+    font-size: 38px;
+    margin-bottom: 0;
+  }
+
+  #home p {
+    display: none;
+  }
+
+  #home img {
+    width: 300px;
+  }
+
+  /* About */
+  #about .container {
+    margin-top: 40px;
+  }
+
+  #about h2 {
+    font-size: 35px;
+  }
+
+  #about h3 {
+    font-size: 22px;
+  }
+
+  .review h4 {
+    font-size: 25px;
+  }
+
+  .review span {
+    font-size: 11px;
+    display: block;
+    line-height: 15px;
+  }
+
+  #about button {
+    transform: scale(.9);
+    margin-left: -7px !important;
+  }
+
+  /* Services */
+  #services {
+    padding-top: 0;
+  }
+
+  #services h2 {
+    font-size: 35px;
+  }
+
+  #services .card {
+    width: 230px !important;
+    height: 160px;
+    padding: 9px;
+  }
+
+  .card i {
+    font-size: 30px;
+  }
+
+  .card .card-title {
+    font-size: 17px;
+  }
+
+  .card .card-text {
+    font-size: 12px;
+  }
+
+  /* Projects */
+  #projects {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #projects h2 {
+    font-size: 35px;
+  }
+
+  #projects h4 {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  #projects a {
+    font-size: 13px;
+  }
+
+  /* Jumbotron */
+  #jumbotron .container-fluid {
+    margin-top: 0;
+  }
+
+  #jumbotron p {
+    font-size: 18px;
+  }
+
+  #jumbotron h2 {
+    font-size: 30px;
+  }
+
+  #jumbotron button {
+    transform: scale(.95);
+  }
+
+  /* Testimonials */
+  #testimonials h2 {
+    font-size: 35px;
+  }
+
+  #testimonials p {
+    font-size: 13px;
+  }
+
+  .cust-bio h6 {
+    font-size: 15px;
+    margin-bottom: -5px;
+  }
+
+  .cust-bio span {
+    font-size: 12px;
+  }
+
+  /* Contact */
+  #contact h2 {
+    font-size: 35px;
+  }
+
+  #contact button {
+    font-size: 15px;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 576px) {
+
+  /* Navbar */
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  /* Home */
+  #home span {
+    font-size: 15px;
+  }
+
+  #home h1 {
+    font-size: 30px;
+  }
+
+  #home h3 {
+    font-size: 20px;
+  }
+
+  #home p {
+    font-size: 13px;
+  }
+
+  #home img {
+    width: 250px;
+  }
+
+  #home button {
+    transform: scale(.9);
+    margin-top: -5px !important;
+    margin-left: -5px !important;
+  }
+
+  /* About */
+  #about .container {
+    margin-top: 40px;
+  }
+
+  #about h2 {
+    font-size: 30px;
+  }
+
+  #about h3 {
+    font-size: 19px;
+  }
+
+  #about p {
+    font-size: 13px;
+  }
+
+  .review h4 {
+    font-size: 20px;
+  }
+
+  .review span {
+    font-size: 10px;
+    line-height: 15px !important;
+    display: block;
+  }
+
+  #about button {
+    transform: scale(.8);
+    margin: 0 0 30px -11px;
+  }
+
+  #about h5 {
+    font-size: 14px;
+  }
+
+  /* Services */
+  #services {
+    margin-top: 300px;
+  }
+
+  #services h2 {
+    font-size: 30px;
+  }
+
+  #services .card {
+    width: 280px !important;
+    height: 180px;
+    margin: 0 auto 15px;
+  }
+
+  .card .card-title {
+    font-size: 18px;
+  }
+
+  .card .card-text {
+    font-size: 13px;
+  }
+
+  /* Projects */
+  #projects {
+    margin-top: 400px;
+  }
+
+  #projects h2 {
+    font-size: 30px;
+  }
+
+  #projects h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  #projects a {
+    font-size: 13px;
+  }
+
+  /* Jumbotron  */
+  #jumbotron .container-fluid {
+    margin-top: 0;
+  }
+
+  #jumbotron p {
+    font-size: 17px;
+  }
+
+  #jumbotron h2 {
+    font-size: 22px;
+  }
+
+  /* Testimonials */
+  #testimonials h2 {
+    font-size: 30px;
+  }
+
+  #testimonials p {
+    font-size: 12px;
+  }
+
+  #testimonials .card {
+    width: 90% !important;
+  }
+
+  #testimonials .card i {
+    font-size: 11px;
+  }
+
+  .cust-bio h6 {
+    font-size: 13px;
+    margin-bottom: -5px;
+  }
+
+  .cust-bio span {
+    font-size: 11px;
+  }
+
+  /* Contact */
+  #contact {
+    margin-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  #contact h2 {
+    font-size: 30px;
+  }
+
+  #contact .example {
+    text-align: center;
+  }
+
+  #contact .form-control {
+    font-size: 13px;
+  }
+
+  #contact button {
+    font-size: 12px;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 9px;
+  }
+}
